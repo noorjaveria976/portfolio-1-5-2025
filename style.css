@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+:root{
+    --bg-section:#e1e7dd;
+}
+.Wrapper{
+   background-color: var(--bg-section);
+}
+
+.imgdp {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    /* border: 1px solid; */
+    background-color: green;
+    background-image: url(./img/i\ am.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hero-section{
+    background-image: url(./img/wallpaper-625623_1280.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.arrow{
+    height: 35px;
+    width: 35px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
