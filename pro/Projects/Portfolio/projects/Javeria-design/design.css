@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+}
+
+.container {
+    width: 80%;
+    /* border: 1px solid; */
+    margin: 30px auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 45px;
+}
+
+.navContent {
+    width: 30%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.navbtn {
+    /* width: 23%; */
+    /* border: 1px solid; */
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.signinbtn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    color: rgb(99 93 161);
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.header {
+    /* height: 300px; */
+    /* border: 1px solid; */
+    margin-top: 30px;
+    display: flex;
+}
+
+.headerLeft {
+    width: 50%;
+    /* border: 1px solid; */
+    position: relative;
+}
+
+.slogan {
+    /* border: 1px solid; */
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+.blueText {
+    color: blue;
+}
+
+.para {
+    width: 90%;
+    /* border: 1px solid; */
+    margin-top: 20px;
+    font-size: 18px;
+    color: grey;
+}
+
+.buttons {
+    width: 44%;
+    /* border: 1px solid; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1 {
+    background-color: rgb(219, 218, 218);
+    color: purple;
+
+}
+
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px solid rgb(204, 204, 204);
+    position: absolute;
+    top: 0px;
+    left: -55px;
+    z-index: -1;
+}
+
+.cirlPurple {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #c4bff5;
+    position: absolute;
+    bottom: -25px;
+    right: 200px;
+}
+
+.headerRight {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid; */
+    position: relative;
+}
+
+.wrapper {
+    width: 300px;
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 50px;
+    transform: rotate(33deg);
+    margin-right: 5px;
+}
+
+@keyframes spin3D {
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.image {
+    height: 270px;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    /* animation: spin3D 3s ease-in-out infinite; */
+    /* animation: spin 3s linear infinite reverse; */
+}
+
+.circle1 {
+    height: 300px;
+    width: 300px;
+    border: 5px solid white;
+    background-color: #f1f1fd;
+    border-radius: 50%;
+    animation: spin 3s linear infinite reverse;
+    border-top: 5px solid #4540e2;
+    border-bottom: 5px solid #4540e2;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.circle2Wrapper{
+    /* border: 1px solid; */
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 10px;
+    animation: spin 5s linear infinite;
+}
+
+.circle2 {
+    height: 150px;
+    width: 300px;
+    background-color: #4540e2;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    animation: spin3D 3s linear infinite reverse;
+   
+}
+
+.circle3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid rgb(110, 110, 110);
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    animation: spin 3s linear infinite;
+    border-bottom: 2px solid #4540e2;
+}
+
+.cirl4 {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid; */
+    background-color: #c4bff5;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+
+.cirl5 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #4540e2;
+    position: absolute;
+    top: 4px;
+    right: 95px;
+}
+
+.cirl6 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #4540e2;
+    position: absolute;
+    left: 70px;
+}
+
+.cirl7 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #4540e2;
+    position: absolute;
+    right: 90px;
+    bottom: -50px;
+}
+
+.cirlpurple {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #6964e5;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+
+.middle {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #f1f1fd;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.courses {
+    width: 25%;
+    height: 60%;
+    /* border: 1px solid; */
+    display: flex;
+
+
+}
+
+.Icon {
+    height: 90%;
+    padding-right: 10PX;
+}
+
+.Icon>img {
+    height: 100%;
+}
+
+.paradiv {
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categorybtn {
+    background-color: white;
+    color: blue;
+}
+
+.cards {
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cardChild {
+    width: 30%;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+}
+
+.Text {
+    /* padding-left: 5px; */
+    padding-top: 20px;
+
+}
+.design{
+    box-shadow: 0px 9px 30px 0px;
+}

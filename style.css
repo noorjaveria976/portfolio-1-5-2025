@@ -27,6 +27,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
 .arrow{
     height: 35px;
@@ -37,4 +38,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 8px;
+}
+.msg{
+    background-color: #e0e8f4;
 }

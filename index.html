@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
-  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Portfolio</title>
-</head>
-
-<body>
-
-  <div class="Wrapper">
-    <div class="container">
-      <div class="nav-section mx-5">
-        <nav class="navbar navbar-expand-lg ">
-          <div class="container-fluid">
-            <a class="navbar-brand imgdp" href="#">
-              <!-- <img src="./img/i am.png" alt="Bootstrap" width="35" height="24"> -->
-            </a>
-            <a class="navbar-brand" href="#">Javeria Noor</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Project</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Resume</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Testimonial</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Articles</a>
-                </li>
-                <!-- <li class="nav-item dropdown">
+  <body>
+    <div class="Wrapper">
+      <div class="container">
+        <div class="nav-section mx-5 pt-2">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand imgdp" href="#">
+                <!-- <img src="./img/i am.png" alt="Bootstrap" width="35" height="24"> -->
+              </a>
+              <a class="navbar-brand" href="#">Javeria Noor</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#article">Articles</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Dropdown
                           </a>
@@ -63,169 +76,409 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                           </ul>
                         </li> -->
-                <!-- <li class="nav-item">
+                  <!-- <li class="nav-item">
                           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                         </li> -->
-              </ul>
-              <form class="d-flex" role="search">
-                <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                <button class="btn btn-primary" type="submit">Search</button>
-              </form>
+                </ul>
+                <form class="d-flex" role="search">
+                  <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                  <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="hero-section mx-5 text-white my-3" id="home">
+          <div class="cards mb-3">
+            <div class="row g-0">
+              <div class="col-md-8 mt-5 p-5">
+                <h1>
+                  👋 Hey, I am Javeria <br />
+                  Mern Stack Developer.
+                </h1>
+                <p class="py-3">
+                  Mern Stack Front end Developer and Content writing <br />
+                  Based on LA. I specialize in Bug Fixing, Responsive Web <br />
+                  Design, and Visual Development
+                </p>
+                <a href="#">
+                  <button class="btn btn-primary">View Projects</button></a
+                >
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="./img/pic1.png"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
             </div>
           </div>
-        </nav>
-      </div>
-
-      <div class="hero-section mx-5">
-        <div class="cards mb-3">
-          <div class="row g-0">
-
-            <div class="col-md-8 mt-5 p-5">
-              <h1>👋
-                Hey, I am Javeria <br> Mern Stack Developer.</h1>
-              <p> Mern Stack Front end Developer and Content writing <br>
-                Based on LA. I specialize in Bug Fixing, Responsive Web <br> Design, and Visual Development</p>
-              <a href="#"> <button class="btn btn-primary">View Projects</button></a>
+        </div>
+        <div class="work-section mx-5 py-5" id="about">
+          <div class="row">
+            <div class="col-6">
+              <h2>
+                I work with over 279+ happy <br />
+                clients all over the World.
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Praesentium <br />
+                amet temporibus beatae similique nulla, esse dicta nobis, aut ,
+                <br />
+                eos deserunt nostrum tenetur.
+              </p>
             </div>
-            <div class="col-md-4">
-              <img src="./img/pic1.png" class="img-fluid rounded-start" alt="...">
+            <div class="col-6">
+              <div class="row">
+                <div class="col-md-4">
+                  <div
+                    class="card d-flex justify-content-center text-center mb-3"
+                    style="height: 100px"
+                  >
+                    <h4>Amazon</h4>
+                  </div>
+                  <div
+                    class="card d-flex justify-content-center text-center"
+                    style="height: 100px"
+                  >
+                    <h4>dribble</h4>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                  <div
+                    class="card d-flex justify-content-center text-center mb-3"
+                    style="height: 100px"
+                  >
+                    <h4>Google</h4>
+                  </div>
+                  <div
+                    class="card d-flex justify-content-center text-center"
+                    style="height: 100px"
+                  >
+                    <h4>Microsoft</h4>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div
+                    class="card d-flex justify-content-center text-center mb-3"
+                    style="height: 100px"
+                  >
+                    <h4>Spotify</h4>
+                  </div>
+                  <div
+                    class="card d-flex justify-content-center text-center"
+                    style="height: 100px"
+                  >
+                    <h4>Linkedin</h4>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="work-section mx-5 py-5">
-        <div class="row">
-          <div class="col-6">
-            <h2>I work with over 279+ happy <br> clients all over the World.</h2>
+
+      <!-- Case Study Section Start -->
+      <div class="Wrapper bg-white" id="projects">
+        <div class="container">
+          <div class="section mx-5 py-5">
+            <div class="row">
+              <div class="col-10">
+                <h2>Latest Case Study</h2>
+                <p>
+                  Lorem ipsum dolor, sit amet. <br />
+                  consectetur adipisicing elit. Earum tempore.
+                </p>
+              </div>
+              <div class="col-2 d-flex justify-content-end mt-4">
+                <div
+                  class="arrow text-primary d-flex text-center justify-content-center align-item-center"
+                >
+                  <i class="ri-arrow-left-line"></i>
+                </div>
+                <div class="arrow bg-primary text-light">
+                  <i class="ri-arrow-right-line"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <img
+                  src="./img/img1.png"
+                  alt=""
+                  class="img-fluid"
+                  style="height: 400px"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="./img/img2.png"
+                  alt=""
+                  class="img-fluid"
+                  style="height: 400px"
+                />
+              </div>
+              <div class="col-md-4">
+                <img
+                  src="./img/pic2.jpg"
+                  alt=""
+                  class="img-fluid"
+                  style="height: 400px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- services section start -->
+      <div class="Wrapper" id="services">
+        <div class="container py-5">
+          <div class="text-center mx-5">
+            <h2>My Services</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium <br>
-              amet temporibus beatae similique nulla, esse dicta nobis, aut , <br> eos
-              deserunt nostrum tenetur.
+              Lorem ipsum dolor, sit amet. <br />
+              consectetur adipisicing elit. Earum tempore.
             </p>
           </div>
-          <div class="col-6">
-            <div class="row">
-              <div class="col-4">
-                <div class="card d-flex  justify-content-center text-center mb-3" style="height: 100px;">
-                  <h4> Amazon</h4>
-                </div>
-                <div class="card  d-flex  justify-content-center text-center" style="height: 100px;">
-                  <h4> dribble</h4>
+          <div class="row mx-5 pt-5">
+            <div class="col-md-4">
+              <div class="card px-0" style="width: 18rem">
+                <img
+                  src="./img/Style=01.png"
+                  class="card-img-top p-3 rounded"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Back end Development</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-white text-primary"
+                    >Let's Work Togther <i class="ri-arrow-right-line"></i>
+                  </a>
                 </div>
               </div>
-              <div class="col-4 mt-4">
-                <div class="card  d-flex  justify-content-center text-center mb-3" style="height: 100px;">
-                  <h4> Google</h4>
-                </div>
-                <div class="card  d-flex  justify-content-center text-center" style="height: 100px;">
-                  <h4> Microsoft</h4>
+            </div>
+            <div class="col-md-4">
+              <div class="card mx-0" style="width: 18rem">
+                <img
+                  src="./img/Style=02.png"
+                  class="card-img-top p-3 rounded"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title"> Front end Development </h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-white text-primary"
+                    >Let's Work Togther <i class="ri-arrow-right-line"></i>
+                  </a>
                 </div>
               </div>
-              <div class="col-4">
-                <div class="card  d-flex  justify-content-center text-center mb-3" style="height: 100px;">
-                  <h4> Spotify</h4>
-                </div>
-                <div class="card  d-flex  justify-content-center text-center" style="height: 100px;">
-                  <h4> Linkedin</h4>
+            </div>
+            <div class="col-md-4">
+              <div class="card mx-0" style="width: 18rem">
+                <img
+                  src="./img/Style=03.png"
+                  class="card-img-top p-3 rounded"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Content Writing</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-white text-primary"
+                    >Let's Work Togther <i class="ri-arrow-right-line"></i>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <!-- Case Study Section Start -->
-  <div class="container  my-5">
-    <div class="section mx-5">
-      <div class="row">
-        <div class="col-10">
-          <h2>Latest Case Study</h2>
-          <p>Lorem ipsum dolor, sit amet. <br> consectetur adipisicing elit. Earum tempore.</p>
+
+      <!-- Numbers section -->
+      <div class="wrapper bg-white" id="testimonial">
+        <div class="container py-5 border-bottom d-flex justify-content-center">
+          <div class="row text-center">
+            <div class="col-md-3">
+              <div class="px-2 border-end">
+                <div class="icon text-primary fs-3"><i class="ri-stack-line"></i></div>
+                <div class="years"><h3>23+</h3></div>
+                <p>years of experience</p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="px-2 border-end">
+                <div class="icon text-primary fs-3"><i class="ri-window-line"></i></div>
+                <div class="years"><h3>279+</h3></div>
+                <p>Completed projects  </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="px-4 border-end">
+                <div class="icon text-primary fs-3"><i class="ri-emotion-happy-line"></i></div>
+                <div class="years"><h3>325+</h3></div>
+                <p>Happy clients</p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="px-5">
+                <div class="icon text-primary fs-3"><i class="ri-cup-line"></i></div>
+                <div class="years"><h3>1652+</h3></div>
+                <p>Hours of work</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-2 d-flex justify-content-end mt-4">
-          <div class="arrow text-primary  d-flex text-center justify-content-center align-item-center"><i
-              class="ri-arrow-left-line"></i></div>
-          <div class="arrow bg-primary text-light"><i class="ri-arrow-right-line"></i></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4" >
-          <img src="./img/pic2.jpg"  alt="" class="img-fluid" style="height: 400px;">
-        </div>
-        <div class="col-4">
-          <img src="./img/pic2.jpg" alt="" class="img-fluid" style="height: 400px;">
-        </div>
-        <div class="col-4">
-          <img src="./img/pic2.jpg" alt="" class="img-fluid" style="height: 400px;">
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- services section start -->
-   <div class=" Wrapper">
-    <div class="container py-5">
-     <div class="text-center mx-5">
-      <h2>My Services</h2>
-      <p>Lorem ipsum dolor, sit amet. <br> consectetur adipisicing elit. Earum tempore.</p>
-     </div>
-     <div class="row mx-5 pt-5">
-      <div class="col-4">
-        <div class="card px-0" style="width: 18rem;">
-          <img src="./img/computer.jpg" class="card-img-top p-3 rounded" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Back end Development </h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-white text-primary">Let's Work Togther <i class="ri-arrow-right-line"></i> </a>
+
+        <!-- Testimonial section -->
+        <div class="container py-5">
+          <div class="row mx-5">
+            <div class="col-md-6">
+              <h2>Client Testimonial</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                molestias!
+              </p>
+
+              <div class="msg rounded p-3 my-3">
+                <h2>"</h2>
+                <p>
+                  Great Designer! does great work and is very flexible with
+                  change.If you are a programmer and looking for UI/UX designer
+                  is definitely well qualified for the job.
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-between">
+                <div class="d-flex align-item-top">
+                  <div class="imgdp mt-2 rounded me-4"></div>
+                  <div class="name">
+                    <h6>Javeria noor</h6>
+                    <p>Founder of Relik</p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-end mt-3">
+                  <div
+                    class="arrow text-primary d-flex text-center justify-content-center align-item-center"
+                  >
+                    <i class="ri-arrow-left-line"></i>
+                  </div>
+                  <div class="arrow bg-primary text-light">
+                    <i class="ri-arrow-right-line"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img
+                  src="./img/pic2.jpg"
+                  alt=""
+                  class="img-fluid"
+                  style="height: 400px", width="500px"
+                />
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card mx-0" style="width: 18rem;">
-          <img src="./img/computer.jpg" class="card-img-top p-3 rounded" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Back end Development </h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-white text-primary">Let's Work Togther <i class="ri-arrow-right-line"></i> </a>
+
+      <!-- Contact section -->
+      <div class="wrapper bg-black text-white py-5" id="contact">
+        <div class="container">
+          <div class="row mx-5">
+            <div class="col-md-8">
+              <h2>
+                Have a project idea. Let's <br />
+                work together!
+              </h2>
+              <p>
+                Do you fancy saying hi to me or do you want to get started with
+                <br />
+                your project and you need my help? Feel free to contact me.
+              </p>
+              <a href="#" class="btn btn-primary text-white">
+                Let's Work Togther <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="" class="btn d-flex border text-white mb-3">
+                <div class="icon">gfeiuegfjk</div>
+                <div class="chat">
+                  <p>CHAT WITH ME</p>
+                  <h5>Javeria.noor.com</h5>
+                </div>
+              </a>
+
+              <a href="#" class="btn btn-primary d-flex">
+                <div class="icon">gfeiuegfjk</div>
+                <div class="chat">
+                  <p>CALL ME</p>
+                  <h5>+92-343-625-8092</h5>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card mx-0" style="width: 18rem;">
-          <img src="./img/computer.jpg" class="card-img-top p-3 rounded" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Back end Development </h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-white text-primary">Let's Work Togther <i class="ri-arrow-right-line"></i> </a>
+
+      <!-- Article & Article section -->
+      <div class="wrapper py-5 bg-white" id="article">
+        <div class="container">
+          <div class="row mx-5 border-bottom pb-5">
+            <div class="col-md-6">
+              <div class="d-flex">
+                <a class="navbar-brand imgdp me-3" href="#"> </a>
+                <h5 class="mt-2">Javi Noor</h5>
+              </div>
+              <div class="location mt-2">Amina Girls Degree College, TEF 21/MPR, <br> Lodhran Pakistan</div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+               
+                <div class="col-md-4">
+                 <div> <a href="#" class="btn"> Home</a> </div>
+                  <div><a href="#" class="btn"> About</a></div>
+                  <div><a href="#" class="btn"> Resume </a></div>
+                 <div> <a href="#" class="btn"> Article</a></div>
+                </div>
+                 <div class="col-md-4">
+                  <a href="#" class="btn"> Services</a>
+                  <a href="#" class="btn"> Projects</a>
+                  <a href="#" class="btn"> Pricing Plans</a>
+                  <a href="#" class="btn"> Contact</a>
+                </div>
+                 <div class="col-md-4">
+                  <a href="#" class="btn"> Facebook</a>
+                  <a href="#" class="btn"> Twitter</a>
+                  <a href="#" class="btn"> Instagram</a>
+                  <a href="#" class="btn"> CodePen</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer text-center pt-4">
+            <p> All content @ 2025 created by Javeria Noor, student of AGDC</p>
           </div>
         </div>
       </div>
-     </div>
     </div>
-   </div>
 
-   <div>
-    <div class="owl-carousel">
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-    </div>
-   </div>
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-    crossorigin="anonymous"></script>
-
-    
-   
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

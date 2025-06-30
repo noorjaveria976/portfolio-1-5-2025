@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Edge-Cut</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- cdn for font-awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Hero section start nav + carousel -->
+
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container ">
+        <a class="navbar-brand" href="#"><span>EDGECUT</span> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item text-center">
+              <a class="nav-link my-2 mx-3 text-uppercase active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item  text-center">
+              <a class="nav-link my-2 mx-3 text-uppercase mx-2" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link my-2 mx-3 text-uppercase mx-2" aria-current="page" href="#">Furniture</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link my-2 mx-3 text-uppercase mx-2" aria-current="page" href="#">Blogs</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link my-2 mx-3 text-uppercase mx-2" aria-current="page" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <div class="align-items-center d-flex nav-item justify-content-center">
+            <a class="nav-link me-5" href="">
+              <span>LOGIN</span>
+              <i class="fa-solid fa-user"></i>
+
+            </a>
+            <form class="form-inline">
+              <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" style="background-color: #f9fafa;">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active" data-bs-interval="5000">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="detail-box pt-3 d-flex flex-column justify-content-center">
+                  <h1 data-aos="fade-up" class="fs-1 fw-bold text-uppercase lh-sm">For All Your <br> Furniture Needs1</h1>
+                  <p class="my-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores
+                    perspiciatis, illo maxime voluptatem a itaque suscipit.</p>
+                  <div class="py-1 d-flex">
+                    <a href="" class="btn1 me-1">Contact Us</a>
+                    <a href="" class="btn2">About Us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="carousel_img_wrapper_contain p-3">
+                  <img src="./images/Edge-slider-img.png" class="img-fluid" alt="Furniture Image">
+                </div>
+                <!-- <div class="img-box p-3">
+                  <img src="./images/Edge-slider-img.png" class="img-fluid" alt="Furniture Image"
+                    style="max-width: 100%; object-fit: contain; height: 300px;">
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item" data-bs-interval="5000">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="detail-box pt-3 d-flex flex-column justify-content-center">
+                  <h1 class="fs-1 fw-bold text-uppercase lh-sm">Modern & Stylish <br> Furniture Collection2</h1>
+                  <p class="my-4">Discover the latest trends in furniture with our premium designs and comfort.
+                  </p>
+                  <div class="py-1 d-flex">
+                    <a href="" class="btn1 me-1">Contact Us</a>
+                    <a href="" class="btn2">About Us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="carousel_img_wrapper_contain p-3">
+                  <img src="./images/Edge-slider-img.png" class="img-fluid" alt="Furniture Image">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item" data-bs-interval="5000">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="detail-box pt-3 d-flex flex-column justify-content-center">
+                  <h1 class="fs-1 fw-bold text-uppercase lh-sm">Custom Furniture <br> Made for You3</h1>
+                  <p class="my-4">Get your furniture customized as per your space, taste, and needs.</p>
+                  <div class="py-1 d-flex">
+                    <a href="" class="btn1 me-1">Contact Us</a>
+                    <a href="" class="btn2">About Us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="carousel_img_wrapper_contain p-3">
+                  <img src="./images/Edge-slider-img.png" class="img-fluid" alt="Furniture Image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Controls -->
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button> -->
+        <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+      </div>
+    </div>
+
+  </div>
+  <!-- Hero section end -->
+
+  <!-- our furniture section start -->
+  <section class="container pt-5 px-3">
+    <h2 class="fs-2 fw-bold text-uppercase lh-sm " data-aos="fade-up">Our Furniture</h2>
+    <p class="my-1"  data-aos="fade-up">which don't look even slightly believable. If you are going to use a passage of
+      Lorem Ipsum, you
+      need to be sure there isn't</p>
+  </section>
+  <!-- our furniture section start -->
+
+  <!-- Product cards section -->
+  <section class="container my-5 text-white">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="card cardbg mb-3 p-4 " data-aos="fade-up">
+          <div class="imgbox">
+            <img src="./images/f1.png" class="" alt="...">
+          </div>
+          <h5 class="text-uppercase">Brown Chair Design</h5>
+          <div class="d-flex justify-content-between">
+            <h6 class="price_heading">
+              <span>$</span> 100.00
+            </h6>
+            <a href="">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="card cardbg mb-3 p-4" data-aos="fade-up">
+          <div class="imgbox">
+            <img src="./images/f2.png" class="card-img-top" alt="..."
+              style="height: 275px; width: 100%; object-fit: contain;">
+          </div>
+          <h5 class="text-uppercase">Brown Chair Design</h5>
+          <div class="d-flex justify-content-between">
+            <h6 class="price_heading">
+              <span>$</span> 100.00
+            </h6>
+            <a href="">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="card cardbg mb-3 p-4 " data-aos="fade-up">
+          <div class="imgbox">
+            <img src="./images/f3.png" class="card-img-top  " alt="...">
+          </div>
+          <h5 class="text-uppercase">Brown Chair Design</h5>
+          <div class="d-flex justify-content-between">
+            <h6 class="price_heading">
+              <span>$</span> 100.00
+            </h6>
+            <a href="">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="card cardbg mb-3 p-4" data-aos="fade-up">
+          <div class="imgbox">
+            <img src="./images/f4.png" class="card-img-top  " alt="...">
+          </div>
+          <h5 class="text-uppercase">Brown Chair Design</h5>
+          <div class="d-flex justify-content-between">
+            <h6 class="price_heading">
+              <span>$</span> 100.00
+            </h6>
+            <a href="">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="card cardbg mb-3 p-4" data-aos="fade-up">
+          <div class="imgbox">
+            <img src="./images/f5.png" class="card-img-top  " alt="...">
+          </div>
+          <h5 class="text-uppercase">Brown Chair Design</h5>
+          <div class="d-flex justify-content-between">
+            <h6 class="price_heading">
+              <span>$</span> 100.00
+            </h6>
+            <a href="">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+        <div class="card cardbg mb-3 p-4" data-aos="fade-up">
+          <div class="imgbox">
+            <img src="./images/f6.png" class="card-img-top  " alt="...">
+          </div>
+          <h5 class="text-uppercase">Brown Chair Design</h5>
+          <div class="d-flex justify-content-between">
+            <h6 class="price_heading">
+              <span>$</span> 100.00
+            </h6>
+            <a href="">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- More cards as needed -->
+    </div>
+  </section>
+
+  <!-- about us section -->
+  <section>
+    <div class="container py-5 px-3" style="background-color: #f9fafa;">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./images/about-img.png" alt="" class="img-fluid" data-aos="fade-up">
+        </div>
+        <div class="col-md-6">
+          <h2 class="fs-2 fw-bold text-uppercase lh-sm mt-3" data-aos="fade-up">About Us</h2>
+          <p class="mt-3 mb-4" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            dolorem eum
+            consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet
+            ab est corporis tempore.</p>
+          <a href="" class="btn2" data-aos="fade-up">Read More</a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog section -->
+  <section>
+    <div class="container">
+      <h2 class="fs-2 fw-bold text-uppercase lh-sm text-center pt-5 ">Latest Blog</h2>
+    </div>
+    <div class="container py-5 px-3">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card shadow mb-2" data-aos="fade-up">
+            <img src="./images/b1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Look even slightly believable. If you are </h5>
+              <p class="card-text">alteration in some form, by injected humour, or randomised words which don't look
+                even slightly believable.</p>
+              <a href="#" class="btn2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow mb-2" data-aos="fade-up">
+            <img src="./images/b2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold ">Anything embarrassing hidden in the middle </h5>
+              <p class="card-text">alteration in some form, by injected humour, or randomised words which don't look
+                even slightly believable.</p>
+              <a href="#" class="btn2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow mb-2" data-aos="fade-up">
+            <img src="./images/b3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Anything embarrassing hidden in the middle </h5>
+              <p class="card-text">alteration in some form, by injected humour, or randomised words which don't look
+                even slightly believable.</p>
+              <a href="#" class="btn2">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial section -->
+
+  <div class="container pb-4 ">
+    <h2 class="fs-2 fw-bold text-uppercase lh-sm text-center pt-3 mb-2 ">What our Client say!</h2>
+    <div id="carouselExampleAutoplaying" class="carousel slide mb-2 shadow" data-bs-ride="carousel">
+      <div class="carousel-inner  py-2">
+        <div class="carousel-item active">
+          <div class="row ">
+            <div class="col-sm-12 col-lg-4 ">
+              <div class=" d-flex justify-content-center align-items-center ">
+                <div class=" testimonial-img-circle d-flex justify-content-center align-items-center">
+                  <img data-aos="fade-up" src="./images/client.jpg" alt="Circle Image" height="175" width="175" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-8 ">
+              <div class="detail-box d-flex flex-column px-3 pt-0 pt-lg-3">
+                <div class="name">
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  <h6>
+                    Siaalya
+                  </h6>
+                </div>
+                <p>
+                  It is a long established fact that a reader will be
+                  distracted by the readable cIt is a long established fact
+                  that a reader will be distracted by the readable c
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item active">
+          <div class="row ">
+            <div class="col-sm-12 col-lg-4 ">
+              <div class=" d-flex justify-content-center align-items-center ">
+                <div class=" testimonial-img-circle d-flex justify-content-center align-items-center">
+                  <img data-aos="fade-up" src="./images/client.jpg" alt="Circle Image" height="175" width="175" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-8 ">
+              <div class="detail-box d-flex flex-column px-3 pt-0 pt-lg-3">
+                <div class="name">
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  <h6>
+                    Siaalya
+                  </h6>
+                </div>
+                <p>
+                  It is a long established fact that a reader will be
+                  distracted by the readable cIt is a long established fact
+                  that a reader will be distracted by the readable c
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <div class="row ">
+            <div class="col-sm-12 col-lg-4 ">
+              <div data-aos="fade-up"  class=" d-flex justify-content-center align-items-center ">
+                <div class=" testimonial-img-circle d-flex justify-content-center align-items-center">
+                  <img  src="./images/client.jpg" alt="Circle Image" height="175" width="175" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-8 ">
+              <div class="detail-box d-flex flex-column px-3 pt-0 pt-lg-3">
+                <div class="name">
+                  <i class="fa fa-quote-left" aria-hidden="true"></i>
+                  <h6>
+                    Siaalya
+                  </h6>
+                </div>
+                <p>
+                  It is a long established fact that a reader will be
+                  distracted by the readable cIt is a long established fact
+                  that a reader will be distracted by the readable c
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Us section -->
+  <section>
+    <div class="container pt-5 pb-3 px-3" style="background-color: #f9fafa;">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class=" ps-2 fs-2 fw-bold text-uppercase lh-sm pt-4 mb-3" data-aos="fade-up">Contact US</h2>
+          <form class="px-2 mb-3" data-aos="fade-up">
+            <div class="mb-3 ">
+              <input type="text" class="form-control rounded-0 py-3 border-0  shadow-none" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control rounded-0 py-3 border-0  shadow-none" placeholder="Phone Number">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control rounded-0 py-3 border-0  shadow-none" placeholder="Email">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control rounded-0 py-3 border-0 shadow-none" placeholder="Message "
+                style="height: 150px;"></textarea>
+            </div>
+            <button type="submit" class="btn2">Send</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <iframe class="w-100 h-100 mb-3"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.775281722194!2d71.5295182738037!3d29.66829463629776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b0d5e81bfc16f%3A0x6335ebeec830dd35!2sAGS%20Amina%20Girls%20Higher%20Secondary%20school!5e0!3m2!1sen!2s!4v1738283748633!5m2!1sen!2s"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-aos="fade-up"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section class="container pt-5 pb-3 px-3 " style="background-color: #191e1f;">
+    <div class="contact_nav d-flex flex-column justify-content-center text-center" data-aos="fade-up">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="" class="d-flex flex-column iconbox my-2">
+            <i class="fa fa-phone fw-bold fs-3" aria-hidden="true"></i>
+            <span class="pt-2">
+              Call : +01 123455678990
+            </span>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="" class="d-flex flex-column iconbox  my-2">
+            <i class="fa fa-envelope fw-bold fs-3" aria-hidden="true"></i>
+            <span class="pt-2">
+              Email : demo@gmail.com
+            </span>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a href="" class="d-flex flex-column iconbox my-2">
+            <i class="fa fa-map-marker-alt fw-bold fs-3" aria-hidden="true"></i>
+            <span class="pt-2">
+              Location
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class=" container pt-3 pb-4 text-center " style="background-color: #191e1f;" >
+    <div class="row " data-aos="fade-up">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="info_links " >
+          <h4 class="mb-4 text-white">
+            QUICK LINKS
+          </h4>
+          <div class=" d-flex gap-1 flex-column flex-wrap text-center text-sm-start ps-0 ps-sm-5">
+            <a class="footer_links" href="index.html">Home</a>
+            <a class="footer_links" href="about.html"> About</a>
+            <a class="footer_links" href="furniture.html">Furniture</a>
+            <a class="footer_links" href="blog.html">Blog</a>
+            <a class="footer_links" href="contact.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 mx-auto">
+        <div class="info_post">
+          <h5 class="mb-4 mt-3 text-white">
+            INSTAGRAM FEEDS
+          </h5>
+          <div class="post_box_footer d-flex justify-content-center flex-wrap">
+            <div class="img-box-footer">
+              <img src="images/f1.png" class="img-fluid" alt="">
+            </div>
+            <div class="img-box-footer">
+              <img src="images/f2.png" class="img-fluid" alt="">
+            </div>
+            <div class="img-box-footer">
+              <img src="images/f3.png" class="img-fluid" alt="">
+            </div>
+            <div class="img-box-footer">
+              <img src="images/f4.png" class="img-fluid" alt="">
+            </div>
+            <div class="img-box-footer">
+              <img src="images/f5.png" class="img-fluid" alt="">
+            </div>
+            <div class="img-box-footer">
+              <img src="images/f6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="info_form">
+          <h4 class="mb-4 mt-3 mt-md-0 text-center text-md-start text-white">
+            SIGN UP TO OUR NEWSLETTER
+          </h4>
+          <form action="" class="text-center text-md-start">
+            <input type="text" class="form-control rounded-0 py-3 border-0  shadow-none" placeholder="Email">
+            <button type="submit" class="btn2 mt-3 w-50 ">
+              Subscribe
+            </button>
+          </form>
+          <div class="social_box_icon d-flex mt-4 justify-content-center justify-content-md-start">
+            <a href="">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRADE mark at footer last section -->
+  <section class="container pt-2 pb-4">
+    <div class="row">
+      <div class=" col-12 col-lg-8 text-center text-lg-start">© 2025 Redesign By Pledges student @AGS_ADP_Senior
+        &#x1F427; </div>
+      <div class=" col-12  col-lg-4 text-center text-lg-end "> Instructor : Tanveer_Ahmad &#x1F44B; </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+
+</html>

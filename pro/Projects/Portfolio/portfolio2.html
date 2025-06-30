@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5 py-3">
+  <div class="container-fluid">
+    <a class="navbar-brand fs-3 fw-bold" href="#">
+      <span class="text-info">J</span>averia
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar-nav mx-auto ">
+        <li class="nav-item ps-3"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item pe-3"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="social-icons login1">
+        <a href="#" class="text-white fs-4"><i class="bx bx-log-in-circle"></i></a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+    <section id="home" class="py-5">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <!-- Left Column: Content -->
+      <div class="col-lg-6">
+        <div class="home-content">
+          <h1 class="mb-3">Hi! I'm Javeria Noor</h1>
+          <div class="change-text mb-3">
+            <h3 class="mb-0">And I'm</h3>
+            <h3 class="word mb-0"><span>Frontend Developer</span></h3>
+          </div>
+          <p class="pro mb-4">
+           I’m a passionate frontend developer specializing in crafting responsive, user-friendly websites with clean code and modern design.
+          </p>
+
+          <div class="row mb-4">
+            <div class="col-6">
+              <h5>Email:</h5>
+              <span>javeria123@gmail.com</span>
+            </div>
+            <!-- <div class="col-6">
+              <h5>Behance:</h5>
+              <span>behance.net/Javeria</span>
+            </div> -->
+          </div>
+
+          <div class="btn-box gap-3 mb-4 flex-wrap">
+            <a href="#" class="btn">Download CV</a>
+            <a href="#" class="btn">Hire Me Now!</a>
+          </div>
+
+          <div class="social-icons gap-3">
+            <a href="#" class="btn rounded-circle "><i class="bx bxl-facebook fs-4"></i></a>
+            <a href="#" class="btn rounded-circle p-2"><i class="bx bxl-instagram fs-4"></i></a>
+            <a href="#" class="btn rounded-circle p-2"><i class="bx bxl-twitter fs-4"></i></a>
+            <a href="#" class="btn rounded-circle p-2"><i class="bx bxl-dribbble fs-4"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Image + SVG -->
+      <div class="col-lg-6 position-relative text-center">
+        <div class="imgbox position-relative">
+          <img src="./images/heroimg.png" alt="Profile Image" class="img-fluid" style="max-width: 350px;">
+          <div class="liquidshape position-absolute top-0 start-50 translate-middle-x z-n1">
+            <!-- SVG shape animation -->
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" width="100%" id="blobSvg">
+              <path fill="#12f7ff">
+                <animate attributeName="d" dur="10000ms" repeatCount="indefinite"
+                  values="
+                    M395.5,307Q364,364,307,396.5Q250,429,177.5,412Q105,395,99,322.5Q93,250,109.5,188Q126,126,188,88.5Q250,51,301.5,99Q353,147,390,198.5Q427,250,395.5,307Z;
+                    M379,315.5Q381,381,315.5,384Q250,387,174.5,394Q99,401,65,325.5Q31,250,79.5,189Q128,128,189,126Q250,124,334.5,102.5Q419,81,398,165.5Q377,250,379,315.5Z;
+                    M373.5,305.5Q361,361,305.5,423.5Q250,486,188,430Q126,374,96.5,312Q67,250,90,181.5Q113,113,181.5,114.5Q250,116,330.5,102.5Q411,89,398.5,169.5Q386,250,373.5,305.5Z;
+                    M418.5,305.5Q361,361,305.5,413.5Q250,466,178.5,429.5Q107,393,109,321.5Q111,250,117.5,187Q124,124,187,110Q250,96,311,112Q372,128,424,189Q476,250,418.5,305.5Z;
+                    M395.5,307Q364,364,307,396.5Q250,429,177.5,412Q105,395,99,322.5Q93,250,109.5,188Q126,126,188,88.5Q250,51,301.5,99Q353,147,390,198.5Q427,250,395.5,307Z;">
+                </animate>
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="py-5 bg-dark text-white">
+  <div class="container">
+    <div class="row align-items-center g-5 flex-column flex-lg-row">
+      <!-- Image Column -->
+      <div class="col-lg-6 position-relative text-center">
+        <img src="./images/hero1.png" alt="About Image" class="img-fluid" style="max-width: 400px;">
+
+        <!-- Info Circles -->
+        <div class="position-absolute info-box infoabout1">
+          <span class="d-block fs-5 fw-bold text-primary">10+</span>
+          <p class="mb-0 small">Years of Experience</p>
+        </div>
+        <div class="position-absolute info-box infoabout2">
+          <span class="d-block fs-5 fw-bold text-primary">150+</span>
+          <p class="mb-0 small">Projects Complete</p>
+        </div>
+        <div class="position-absolute info-box infoabout3">
+          <span class="d-block fs-5 fw-bold text-primary">200+</span>
+          <p class="mb-0 small">Happy Clients</p>
+        </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="col-lg-6">
+        <div class="aboutcontent">
+          <span class="text-uppercase small text-light">Let me introduce myself</span>
+          <h2 class=" fw-bold fs-2">About me</h2>
+          <h3 class="fw-semibold fs-4 mb-2">A story of good</h3>
+          <p class="text-light mb-4">
+           I'm Javeria Noor, a frontend developer with a passion for building beautiful and responsive websites. I love turning creative ideas into real-world digital experiences that are functional, user-friendly, and visually appealing.
+          </p>
+         <div class="btn-box">
+          <a href="#" class="btn">Read More!</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="py-5 text-white">
+  <div class="container">
+    <!-- Heading -->
+    <div class="maintext mb-5">
+      <span class="text-light text-uppercase small d-block letter-spacing">What I will do for you</span>
+      <h2 class=" fw-bold fs-2">Our Services</h2>
+    </div>
+
+    <!-- Services Grid -->
+    <div class="row g-4 justify-content-center">
+      <!-- Service Box -->
+      <div class="col-md-6 col-lg-4">
+        <div class="p-4 text-center rounded servicebox h-100">
+          <i class="bx bxs-layer serviceicon mb-3"></i>
+          <h3 class="fs-4 fw-semibold">Creative Design</h3>
+          <p class="small fw-light my-3">
+            Translating ideas into visually compelling designs that communicate clearly and resonate deeply.Bringing ideas to life through imaginative.
+          </p>
+          <div class="btn-box servicebtn">
+            <a href="#" class="btn">Read More!</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Duplicate Boxes (you can customize text later) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="p-4 text-center rounded servicebox h-100">
+          <i class="bx bxs-layer serviceicon mb-3"></i>
+          <h3 class="fs-4 fw-semibold">Creative Portfolio </h3>
+          <p class="small fw-light my-3">
+           Welcome to my portfolio a collection of design explore, and thoughtful execution.Each project here reflects a blend of imagination.
+          </p>
+          <div class="btn-box servicebtn">
+            <a href="#" class="btn">Read More!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <div class="p-4 text-center rounded servicebox h-100">
+          <i class="bx bxs-layer serviceicon mb-3"></i>
+          <h3 class="fs-4 fw-semibold">Creative Website </h3>
+          <p class="small fw-light my-3">
+           Where ideas meet imagination—crafted into experiences that inspire.Creativity isn’t just what we do—it’s how we think.
+          </p>
+          <div class="btn-box servicebtn">
+            <a href="#" class="btn">Read More!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="skills py-5 bg-dark text-white">
+  <div class="container">
+    <!-- Section Heading -->
+    <div class="maintext mb-5">
+      <span class="text-uppercase small d-block letter-spacing">Technical and Professional</span>
+      <h2 class=" fw-bold fs-2">My Skills</h2>
+    </div>
+
+    <div class="row gy-5">
+      <!-- Technical Skills -->
+      <div class="col-md-6">
+        <h3 class="text-center mb-4">Technical Skills</h3>
+        <div class="mb-4">
+          <div class="d-flex justify-content-between px-2">
+            <p>HTML</p><p>72%</p>
+          </div>
+          <div class="progress rounded-pill" style="height: 10px;">
+            <div class="progress-bar html" role="progressbar"></div>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <div class="d-flex justify-content-between px-2">
+            <p>CSS</p><p>62%</p>
+          </div>
+          <div class="progress rounded-pill" style="height: 10px;">
+            <div class="progress-bar css" role="progressbar"></div>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <div class="d-flex justify-content-between px-2">
+            <p>Bootstrap</p><p>90%</p>
+          </div>
+          <div class="progress rounded-pill" style="height: 10px;">
+            <div class="progress-bar bootstrap" role="progressbar"></div>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <div class="d-flex justify-content-between px-2">
+            <p>JavaScript</p><p>80%</p>
+          </div>
+          <div class="progress rounded-pill" style="height: 10px;">
+            <div class="progress-bar javascript" role="progressbar"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional Skills -->
+      <div class="col-md-6">
+        <h3 class="text-center mb-4">Professional Skills</h3>
+        <div class="row g-4 text-center">
+          <div class="col-6">
+            <div class="position-relative box">
+              <div class="circle"></div>
+              <div class="circle cirl team"></div>
+              <div class="text">
+                <big>90%</big>
+                <small>Team Work</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="position-relative box">
+              <div class="circle"></div>
+              <div class="circle cirl creat"></div>
+              <div class="text">
+                <big>80%</big>
+                <small>Creativity</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="position-relative box">
+              <div class="circle"></div>
+              <div class="circle cirl manage"></div>
+              <div class="text">
+                <big>90%</big>
+                <small>Project Management</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="position-relative box">
+              <div class="circle"></div>
+              <div class="circle cirl talk"></div>
+              <div class="text">
+                <big>70%</big>
+                <small>Communication</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="portfolio" class="Portfolio py-5">
+  <div class="container">
+    <div class="maintext mb-5">
+      <span class="d-block text-uppercase fw-semibold">What I will do for you?</span>
+      <h2 class="fw-bold">Latest Projects</h2>
+    </div>
+
+    <div class="wrapper">
+     
+      <div class="row  g-4">
+       <div class="col-lg-4">
+         <div class="portbox position-relative">
+          <div class="port w-100 h-100 position-absolute top-0 start-0 d-flex align-items-center justify-content-center">
+            <div class="portcontent text-white px-3">
+              <h3 class="h5 text-center">Graphic Design</h3>
+              <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+              <a href="./projects/Sample_bootstrapfolio/index.html" class="icon1 mx-auto">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+            <div class="blur position-absolute bottom-0 start-0 w-100"></div>
+          </div>
+        </div>
+       </div>
+
+        <div class="col-lg-4">
+         <div class="portbox position-relative">
+          <div class="port w-100 h-100 position-absolute top-0 start-0 d-flex align-items-center justify-content-center">
+            <div class="portcontent text-white px-3">
+              <h3 class="h5 text-center">Graphic Design</h3>
+              <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+              <a href="./projects/Figma_folio/portfolio1.html" class="icon1 mx-auto">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+            <div class="blur position-absolute bottom-0 start-0 w-100"></div>
+          </div>
+        </div>
+       </div>
+
+        <div class="col-lg-4">
+         <div class="portbox position-relative">
+          <div class="port w-100 h-100 position-absolute top-0 start-0 d-flex align-items-center justify-content-center">
+            <div class="portcontent text-white px-3">
+              <h3 class="h5 text-center">Graphic Design</h3>
+              <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+              <a href="./projects/Javeria_dashboard/dashboard.html" class="icon1 mx-auto">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+            <div class="blur position-absolute bottom-0 start-0 w-100"></div>
+          </div>
+        </div>
+       </div>
+
+        <div class="col-lg-4">
+         <div class="portbox position-relative">
+          <div class="port w-100 h-100 position-absolute top-0 start-0 d-flex align-items-center justify-content-center">
+            <div class="portcontent text-white px-3">
+              <h3 class="h5 text-center">Graphic Design</h3>
+              <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+              <a href="./projects/Javeria-design/design.html" class="icon1 mx-auto">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+            <div class="blur position-absolute bottom-0 start-0 w-100"></div>
+          </div>
+        </div>
+       </div>
+
+        <div class="col-lg-4">
+         <div class="portbox position-relative">
+          <div class="port w-100 h-100 position-absolute top-0 start-0 d-flex align-items-center justify-content-center">
+            <div class="portcontent text-white px-3">
+              <h3 class="h5 text-center">Graphic Design</h3>
+              <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+              <a href="./projects/Javeria_whatsapp/design2.html" class="icon1 mx-auto">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+            <div class="blur position-absolute bottom-0 start-0 w-100"></div>
+          </div>
+        </div>
+       </div>
+
+        <div class="col-lg-4">
+         <div class="portbox position-relative">
+          <div class="port w-100 h-100 position-absolute top-0 start-0 d-flex align-items-center justify-content-center">
+            <div class="portcontent text-white px-3">
+              <h3 class="h5 text-center">Graphic Design</h3>
+              <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit...</p>
+              <a href="./projects/Solar_system/solar.html" class="icon1 mx-auto">
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+            <div class="blur position-absolute bottom-0 start-0 w-100"></div>
+          </div>
+        </div>
+       </div>
+       
+        
+      </div>
+
+      
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact py-5">
+  <div class="container">
+    <div class="row align-items-center gx-5">
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <div class="maintext mb-4">
+          <span class="d-block text-uppercase fw-semibold">Ask me questions!</span>
+          <h2 class="fw-bold">Contact Us</h2>
+        </div>
+
+        <form>
+          <div class="mb-3">
+            <input type="text" class="form-control label" placeholder="Your Name" />
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control label" placeholder="Phone Number" />
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control label" placeholder="Email" />
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control label msg" placeholder="Message"></textarea>
+          </div>
+          <div class="btn-box">
+            <a href="#" class="btn btn-outline-light px-4">Send</a>
+          </div>
+        </form>
+      </div>
+
+      <!-- Location Image -->
+      <div class="col-md-6">
+        <div class="location">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.7752817222154!2d71.52951827414209!3d29.66829463629714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b0d5e81bfc16f%3A0x6335ebeec830dd35!2sAGS%20Amina%20Girls%20Higher%20Secondary%20school!5e0!3m2!1sen!2s!4v1750090156670!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer text-white py-3">
+  <div class="container d-flex justify-content-between align-items-center flex-wrap">
+    <div class="byuser">
+      <h6 class="mb-0">© 2024 Javeria Noor — All Rights Reserved</h6>
+    </div>
+    <div class="iconend">
+      <!-- Add social icons or other footer elements here -->
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

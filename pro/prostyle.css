@@ -1,0 +1,44 @@
+
+.imgwrapper{
+    height: 350px;
+    background-image: url(../img/portfolio12.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    height: 350px;
+    background-image: url(../img/new.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    height: 350px;
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img4{
+    height: 350px;
+   
+    background-image: url(../img/portfolio3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img5{
+    height: 350px;
+    background-image: url(../img/dashboard.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img6{
+    height: 350px;
+    background-image: url(../img/design6.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

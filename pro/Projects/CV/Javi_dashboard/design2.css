@@ -1,0 +1,696 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cfcfcf;
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    /* border: 1px solid; */
+    margin: 10px auto;
+    /* height: 500px; */
+    /* background-color: rgb(211, 211, 211); */
+    display: flex;
+}
+
+.dashboard {
+    width: 23%;
+    /* border: 1px solid; */
+    /* height: 95vh; */
+    margin-top: 5px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    position: relative;
+}
+
+.logo {
+    width: 55%;
+    margin-left: 20px;
+    margin-top: 20px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about1 {
+    background: linear-gradient(to right, #b3d7f7, rgb(177, 177, 177));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jaw {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    /* border: 1px solid; */
+    text-align: center;
+    background: linear-gradient(to bottom,  #b3d7f7 15%, rgb(177, 177, 177) 85%);
+    color: white;
+}
+
+.options {
+    width: 80%;
+    height: 33%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-left: 20px; */
+
+    margin: 40px auto;
+}
+
+.item {
+    color: gray;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    gap: 15px;
+}
+
+.item1 {
+    color: black;
+}
+
+.item2 {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.plus {
+    width: 20px;
+    height: 20px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(209, 209, 209);
+    align-items: center;
+    margin-left: 50px;
+}
+
+.sign {
+    margin-left: 64px;
+}
+
+.upgrade {
+    width: 80%;
+    /* border: 1px solid; */
+    margin: auto;
+    /* background-color: #f8f8f8; */
+    background: linear-gradient(to bottom, white, #f2f2f2);
+    border-radius: 10px;
+}
+
+.heading3 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #0e1748;
+}
+
+.features {
+    text-align: center;
+    font-size: 13px;
+    color: #a193b2;
+}
+
+button {
+    width: 85%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #b3d7f7;
+    margin: 20px auto;
+    margin-left: 10px;
+    border: none;
+}
+
+.info {
+    /* border: 1px solid; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 14px;
+    color: gray;
+}
+
+.info1 {
+    width: 45%;
+}
+
+.rightpart {
+    width: 77%;
+    margin-left: 30px;
+    margin-top: 5px;
+    /* border: 1px solid; */
+}
+
+.navbar {
+    width: 100%;
+    height: 8%;
+    /* border: 1px solid; */
+
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: white;
+}
+
+.imgdiv {
+    height: 100%;
+    width: 23%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.profile {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #b3d7f7;
+    background-image: url(./images/girl\ mehroon.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.name1 {
+
+    /* border: 1px solid; */
+    height: 80%;
+}
+
+
+.pro {
+
+    font-size: 13px;
+}
+
+.date {
+    width: 15%;
+    height: 35px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search {
+    width: 30%;
+    height: 35px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+span {
+    margin-left: 15px;
+}
+
+.circle {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    margin-left: 20px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+position: relative;
+}
+
+.coment {
+    width: 15px;
+}
+.yellow{
+    width: 7px;
+    height: 7px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: palevioletred;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+
+.calldiv {
+    width: 100%;
+    height: 92%;
+    /* border: 1px solid; */
+    display: flex;
+}
+
+.call {
+    width: 46%;
+    /* height: 100%; */
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* border: 1px solid; */
+
+}
+
+.callpic {
+    width: 95%;
+    height: 32%;
+    background-color: #f2f2f2;
+    margin: 7px auto;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.callprofile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: bisque;
+    margin: 15px auto;
+    background-image: url(./images/girl\ white.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.noor {
+    margin-top: -10px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+
+
+}
+
+.icondiv {
+    display: flex;
+    width: 35%;
+    /* border: 1px solid; */
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day {
+    width: 90%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.line {
+    width: 40%;
+    border: 1px solid #f2f2f2;
+    height: 1px;
+}
+
+.msg {
+    width: 60%;
+    height: 57px;
+    background-color: #b3d7f7;
+    border-radius: 13px 13px 5px 13px;
+    margin-left: 118px;
+    margin-top: 10px;
+    /* padding-top: 7px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+
+}
+
+.audio {
+    width: 60%;
+    height: 50px;
+    background-color: #f3f3fd;
+    border-radius: 13px 13px 13px 5px;
+    margin-left: 10px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.audiocirl {
+    background-color: #b3d7f7;
+    margin-left: 7px;
+}
+
+.time {
+    margin-left: 90px;
+    font-size: 10px;
+    color: rgb(156, 156, 156);
+}
+
+.message {
+    font-size: 13px;
+    text-align: start;
+    padding-left: 8px;
+
+}
+
+.msg2 {
+    height: 45px;
+}
+
+.time2 {
+    font-size: 10px;
+    margin-left: 29px;
+    color: rgb(156, 156, 156);
+}
+
+.msg3 {
+    height: 45px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.cirl {
+    margin-left: 7px;
+    margin-right: 8px;
+}
+
+.text {
+    /* border: 1px solid; */
+    position: relative;
+}
+
+.link {
+    font-size: 10px;
+}
+
+.time3 {
+    font-size: 10px;
+    position: absolute;
+    right: -23px;
+    bottom: -4px;
+    color: rgb(156, 156, 156);
+}
+
+.emogi {
+    width: 33px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5fb;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -35px;
+    right: -25px;
+}
+
+.keypad {
+    width: 94%;
+    height: 40px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+.attach {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.type {
+    color: gray;
+
+}
+
+.right {
+    width: 55%;
+    /* border: 1px solid; */
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.team {
+    width: 100%;
+    height: 55%;
+    /* border: 1px solid; */
+    border-radius: 10px;
+background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.top {
+    display: flex;
+    width: 87%;
+    margin: 10px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.number {
+    width: 15%;
+    height: 25px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    align-items: center;
+}
+
+.no {
+    color: #0c229e;
+
+}
+
+.member {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 87%;
+    /* border: 1px solid; */
+    margin: auto;
+}
+
+.left {
+
+    display: flex;
+    /* border: 1px solid; */
+    width: 48%;
+    gap: 10px;
+    align-items: center;
+}
+
+.pic1 {
+    background-image: url(./images/red\ girl.png);
+    background-color: green;
+}
+
+.pic2 {
+    background-image: url(./images/girl\ mehroon.png);
+    background-color: gray;
+}
+
+.pic3 {
+    background-image: url(./images/girl\ white.png);
+    background-color: rgb(250, 250, 130);
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 20;
+}
+
+.job {
+    font-size: 13px;
+    color: gray;
+}
+
+
+.mail {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line3 {
+    width: 90%;
+    height: 1px;
+    border: 1px solid #f2f2f2;
+    margin: auto;
+
+}
+
+.btm {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+    gap: 1rem;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.signplus {
+    font-size: 35px;
+}
+
+.project {
+    width: 100%;
+    height: 43%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+background-color: white;
+}
+
+.wrapper {
+    width: 90%;
+    /* border: 1px solid; */
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.meeting {
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.description {
+    text-align: start;
+    color: gray;
+    margin-top: 5px;
+}
+
+.meetingtime {
+    width: 100%;
+    height: 30px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 12.5rem;
+    margin-top: 10px;
+    /* border: 1px solid; */
+}
+
+.clock {
+    /* width: 180px; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-left: 10px;
+    /* border: 1px solid; */
+}
+
+.meetingdate {
+    margin-top: 10px;
+    gap: 9rem;
+    margin-bottom: 5px;
+    
+}
+.attendence{
+    width: 100%;
+    display: flex;
+   justify-content: flex-end;
+    /* border: 1px solid; */
+    gap: 10px;
+    position: relative;
+    align-items: center;
+    margin-top: 3px;
+}
+.attend{
+    width: 25px;
+    height: 25px;
+    background-color: #b3d7f7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.attend1{
+    position: absolute;
+    left: 0px;
+    border: 1.5px solid white;
+}
+.attend2{
+    position: absolute;
+    left: 16px;
+    border: 1.5px solid white;
+}
+.attend3{
+    position: absolute;
+    left: 32px;
+    border: 1.5px solid white;
+}
+.attend4{
+    position: absolute;
+    left: 48px;
+    border: 1.5px solid white;
+}
+.attend5{
+    position: absolute;
+    left: 64px;
+    border: 1.5px solid white;
+}
+.attend6{
+    position: absolute;
+    left: 80px;
+    border: 1.5px solid white;
+}
+.pic4{
+    width: 25px;
+    height: 25px;
+}
+.blank{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+border-radius: 50%;
+background-color: #b3d7f7;
+}
